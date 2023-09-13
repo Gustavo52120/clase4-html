@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 4 formularios</title>
+</head>
+<body>
+    <h1>Datos de producción</h1>
+    
+    <form>
+            <h3>Información del producto:</h3>
+            <br>
+            <label for="date">Día de produccion:</label>
+            <input type="date" name="dia de produccion">
+            <br>
+            <label>Seleccionar producto:</label>    
+            <select>
+                
+                <option value="">--Seleccionar Producto--</option>
+                <option value="La tijereta">La tijereta</option>
+                <option value="Control Max">ControlMax</option>
+                <option value="TOP">TOP</option>
+            
+            </select>            
+            <hr>
+            <label for="lote a envasar" name="lote a envasar">Lote a envasar:</label>
+            <input type="text" name="lote a envasar" placeholder="lote a envasar" id="lote a envasar">
+            <hr>
+       
+            <hr>
+            <label for="Elaboracion">Elaboracion:</label>
+            <input type="date" name="elaboracion">
+            <label for="Elaboracion">Vencimiento:</label>
+            <input type="date" name="elaboracion">
+
+        
+            <hr>
+            <h3>Desvios de calidad:</h3>
+
+            <hr>
+        <label for="Desvios">Caja rota</label>
+        <input type="checkbox" name="calidad" value="caja rota" id="caja rota">
+        <label for="calidad">Bolsa rota</label>
+        <input type="checkbox" name="bolsa rota" value="bolsa rota" id="bolsa rota">
+        <label for="calidad">Falla impresion</label>
+        <input type="checkbox" name="calidad" value="Falla impresion" id="Falla impresion">
+        <hr>
+        <hr>
+        <label>comentario</label>
+        <textarea id="Caja comentario"></textarea>
+    
+        <hr>
+
+
+    <button type="submit">Enviar info</button>
+    <button type="reset">Borrar info</button>
+
+    </form>
+</body>
+</html>
